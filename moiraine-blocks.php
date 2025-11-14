@@ -61,7 +61,7 @@ add_action(
 	'wp_enqueue_scripts',
 	function () {
 		// Only load carousel assets if carousel block is being used.
-		if ( has_block( 'moiraine/carousel' ) ) {
+		if ( has_block( 'imagewize/carousel' ) ) {
 			// Enqueue Slick Carousel CSS.
 			wp_enqueue_style(
 				'slick-carousel',
