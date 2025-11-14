@@ -4,7 +4,7 @@ npm-debug.log
 yarn-error.log
 
 # Build artifacts
-build/
+# Note: build/ directories are included for Packagist distribution
 dist/
 
 # WordPress

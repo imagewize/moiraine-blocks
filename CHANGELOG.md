@@ -1,0 +1,38 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0.0] - 2025-11-14
+
+### Added
+- Initial release of Moiraine Blocks plugin
+- Mega Menu block (`moiraine/mega-menu`)
+  - WordPress Interactivity API integration
+  - Template part support for dynamic menu content
+  - Keyboard navigation support (Escape key to close)
+  - Outside-click dismissal
+  - Focus management
+  - Customizable styling options
+- Carousel block (`imagewize/carousel`)
+  - Slick Carousel integration
+  - Responsive breakpoint configuration
+  - Customizable slides to show/scroll
+  - Arrow and dot navigation options
+  - Custom arrow color support
+  - Touch/swipe support
+- Slide block (`imagewize/slide`)
+  - InnerBlocks support for flexible content
+  - Parent constraint (only works inside Carousel block)
+  - Unique slide ID generation
+- Conditional asset loading (Slick Carousel only loads when carousel block is used)
+- SVG and WebP upload support in media library
+- Translation support with text domain `moiraine-blocks`
+- Composer support for installation via Packagist
+
+### Changed
+- Migrated blocks from Moiraine theme to standalone plugin (WordPress.org theme review compliance)
+
+[1.0.0]: https://github.com/jfrumau/moiraine-blocks/releases/tag/v1.0.0

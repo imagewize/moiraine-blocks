@@ -1,0 +1,49 @@
+{
+    "name": "jfrumau/moiraine-blocks",
+    "type": "wordpress-plugin",
+    "description": "Custom WordPress blocks for the Moiraine theme including Mega Menu, Carousel, and Slide blocks",
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "blocks",
+        "gutenberg",
+        "carousel",
+        "mega-menu",
+        "moiraine"
+    ],
+    "homepage": "https://imagewize.com/moiraine-blocks",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Jasper Frumau",
+            "homepage": "https://github.com/jfrumau"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jfrumau/moiraine-blocks/issues",
+        "source": "https://github.com/jfrumau/moiraine-blocks"
+    },
+    "require": {
+        "php": ">=7.3",
+        "composer/installers": "^1.0 || ^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "wp-coding-standards/wpcs": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MoiraineBlocks\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "scripts": {
+        "phpcs": "phpcs --standard=WordPress .",
+        "phpcbf": "phpcbf --standard=WordPress .",
+        "test": "phpunit"
+    }
+}
