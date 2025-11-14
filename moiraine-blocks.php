@@ -7,7 +7,7 @@
  * Requires at least: 6.7
  * Requires PHP: 7.3
  * Author: Jasper Frumau
- * Author URI: https://github.com/jfrumau
+ * Author URI: https://github.com/imagewize
  * License: GPL v3 or later
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain: moiraine-blocks
